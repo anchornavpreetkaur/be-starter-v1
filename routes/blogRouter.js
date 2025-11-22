@@ -1,0 +1,3 @@
+const blogRouter = require("./routes/blogRouter");
+//...
+app.use("/api/blogs", blogRouter);
